@@ -53,7 +53,9 @@ class EventCard extends Component {
 }
 
 const reduxMap = reduxState => {
-  return {...this.props, reduxState}
+  return { reduxState}
 }
 
 export default connect(reduxMap)(EventCard);
+
+//...this.props,reduxState
