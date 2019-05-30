@@ -143,7 +143,7 @@ class LoginPage extends Component {
                   style={{ marginTop: '10px' }}>
 
                   Login
-                                    </Button>
+                </Button>
                 <Button type="button"
                   // variant="contained"
                   color="primary"
@@ -152,7 +152,7 @@ class LoginPage extends Component {
                   style={{ marginTop: '10px', float: 'right' }}
                   onClick={() => { this.props.dispatch({ type: 'SET_TO_REGISTER_MODE' }) }}>
                   Register
-                                    </Button>
+                 </Button>
               </ValidatorForm>
             </Paper>
           </div>
